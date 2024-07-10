@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(219, 246, 179);
+}
+.tooltip-container {
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 2px;
+  margin-left: 50px;
+  width: 80%;
+}
+.tooltip-trigger {
+  position: relative;
+  cursor: pointer;
+}
+.tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #333;
+  color: #e2f3e2;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+}
+.tooltip-trigger:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+  background-color: rgb(175, 121, 226);
+}
+.suculentas {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.tooltip-activar {
+  position: relative;
+  cursor: pointer;
+}
+.tooltip-frase {
+  visibility: hidden;
+  width: 200px;
+  background-color: #333;
+  color: #e2f3e2;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+}
+.tooltip-activar:hover .tooltip-frase {
+  visibility: visible;
+  opacity: 1;
+  background-color: rgb(175, 121, 226);
+}
